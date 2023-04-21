@@ -1,3 +1,4 @@
 # docker-mkp224o-generatore-onion-address
 
-docker run -it -d -v /root/result:/result --name mk marvambass/mkp224o sh
+```docker pull marvambass/mkp224o```
+```docker run -it -d -v /root/result:/result --name mk marvambass/mkp224o sh```
