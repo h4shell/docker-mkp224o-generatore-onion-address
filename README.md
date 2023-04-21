@@ -2,5 +2,5 @@
 
 ```
 docker pull marvambass/mkp224o
-docker run -it -d -v /root/result:/result --name mk marvambass/mkp224o sh
+docker run -it -d -v $PWD/result:/result --name mk marvambass/mkp224o sh
 ```
